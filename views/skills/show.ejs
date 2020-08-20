@@ -7,9 +7,10 @@
   <link rel="stylesheet" href="/stylesheets/style.css">
 </head>
 <body>
+  <a href="/">Home</a> | <a href="/skills">Back to Skill List</a>
   <h1>Skill #<%= skillNum %></h1>
-   <h3><%= skill.skill %></h3>
-   <h3>Complete: <%= skill.experienced ? 'Yes' : 'No' %></h3>
-   <a href="/skills">Back to Skill List</a>
+  <h3><%= skill.skill %></h3>
+  <h3>Learned: <%= skill.learned ? 'Yes' : 'No' %></h3>
+  <a href="/skills/<%= skill.id %>/edit">Edit Skill</a>
 </body>
 </html>
