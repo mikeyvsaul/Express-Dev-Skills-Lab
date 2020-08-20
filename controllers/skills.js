@@ -45,5 +45,7 @@ function edit(req, res) {
 };
 
 function update(req, res) {
-  
+  req.body.learned = !!req.body.learned;
+  Skill.update(req.params.id, req.body);
+  res.redirect(`/skills/${req.params.id}`);
 };

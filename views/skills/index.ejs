@@ -7,7 +7,7 @@
   <link rel='stylesheet' href='/stylesheets/style.css' />
 </head>
 <body>
-  <a href="/">Home Page</a>
+  <a href="/">Home</a>
   <h1>Skills</h1>
   <h1>Skills as of <%= time %></h1>
     <ul>
@@ -19,7 +19,7 @@
           </form>
           <a href="/skills/<%= t.id %>"><%= t.skill %></a>
             - 
-          <%= t.learned ? 'learned' : 'not learned' %>
+          <%= t.learned ? 'Learned' : 'Not Learned' %>
         </li>
       <% }); %>
     </ul>
