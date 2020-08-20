@@ -1,9 +1,9 @@
 const skills = [
   {id: 987234, skill: 'Javascript', learned: true},
-  {id: 890489, skill: 'Python', learned: false},
-  {id: 183959, skill: 'React', learned: false},
+  {id: 293845, skill: 'HTML', learned: true},
   {id: 489184, skill: 'CSS', learned: true},
-  {id: 293845, skill: 'HTML', learned: true}
+  {id: 890489, skill: 'Python', learned: false},
+  {id: 183959, skill: 'React', learned: false}
 ];
 
 module.exports = {
