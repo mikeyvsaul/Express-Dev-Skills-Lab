@@ -9,7 +9,7 @@
     <form action="/skills/<%= skill.id %>?_method=PUT" method="POST" autocomplete="off">
       <input type="checkbox" name="learned" <%= skill.learned ? 'checked' : '' %>>
       <input type="text" name="skill" value="<%= skill.skill %>">
-      <button type="submit">Update Skill</button>
+      <button type="submit" id="update">Update Skill</button>
     </form>
     <a href="/skills">Skills List</a>
   </body>

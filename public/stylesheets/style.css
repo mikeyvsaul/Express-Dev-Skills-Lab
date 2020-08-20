@@ -5,7 +5,7 @@ body {
 }
 
 a {
-  color: #00B7FF;
+  color: #10a5e0;
 }
 
 .delete-form {
@@ -16,7 +16,23 @@ a {
 .delete-form button {
   color: red;
 }
+
+#update {
+  padding: 6px 6px;
+  font-size: 100%;
+  color: white;
+  background-color: rgb(40, 51, 201);
+  border-radius: 3px;
+}
 	
 li {
   list-style: none;
 }
+
+input {
+  padding: 6px 6px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
